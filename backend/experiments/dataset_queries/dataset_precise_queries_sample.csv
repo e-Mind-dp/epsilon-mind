@@ -1,0 +1,201 @@
+query
+How many patients have been diagnosed with Major Depressive Disorder?
+What is the average mood score of patients with Major Depressive Disorder?
+What is the average treatment duration for Major Depressive Disorder?
+What therapy types are used for treating Major Depressive Disorder?
+What percentage of Major Depressive Disorder patients showed improvement?
+How many patients have been diagnosed with Panic Disorder?
+What is the average mood score of patients with Panic Disorder?
+What is the average treatment duration for Panic Disorder?
+What therapy types are used for treating Panic Disorder?
+What percentage of Panic Disorder patients showed improvement?
+How many patients have been diagnosed with Generalized Anxiety?
+What is the average mood score of patients with Generalized Anxiety?
+What is the average treatment duration for Generalized Anxiety?
+What therapy types are used for treating Generalized Anxiety?
+What percentage of Generalized Anxiety patients showed improvement?
+How many patients have been diagnosed with Bipolar Disorder?
+What is the average mood score of patients with Bipolar Disorder?
+What is the average treatment duration for Bipolar Disorder?
+What therapy types are used for treating Bipolar Disorder?
+What percentage of Bipolar Disorder patients showed improvement?
+How many patients are on Mood Stabilizers?
+What is the average adherence for patients on Mood Stabilizers?
+How effective is Mood Stabilizers in terms of outcome?
+What is the average stress level of patients on Mood Stabilizers?
+How many patients are on Antipsychotics?
+What is the average adherence for patients on Antipsychotics?
+How effective is Antipsychotics in terms of outcome?
+What is the average stress level of patients on Antipsychotics?
+How many patients are on SSRIs?
+What is the average adherence for patients on SSRIs?
+How effective is SSRIs in terms of outcome?
+What is the average stress level of patients on SSRIs?
+How many patients are on Anxiolytics?
+What is the average adherence for patients on Anxiolytics?
+How effective is Anxiolytics in terms of outcome?
+What is the average stress level of patients on Anxiolytics?
+How many patients are on Antidepressants?
+What is the average adherence for patients on Antidepressants?
+How effective is Antidepressants in terms of outcome?
+What is the average stress level of patients on Antidepressants?
+How many patients are on Benzodiazepines?
+What is the average adherence for patients on Benzodiazepines?
+How effective is Benzodiazepines in terms of outcome?
+What is the average stress level of patients on Benzodiazepines?
+How many patients received Interpersonal Therapy?
+What is the average symptom severity for patients in Interpersonal Therapy?
+What diagnosis is most commonly treated with Interpersonal Therapy?
+How many patients received Mindfulness-Based Therapy?
+What is the average symptom severity for patients in Mindfulness-Based Therapy?
+What diagnosis is most commonly treated with Mindfulness-Based Therapy?
+How many patients received Cognitive Behavioral Therapy?
+What is the average symptom severity for patients in Cognitive Behavioral Therapy?
+What diagnosis is most commonly treated with Cognitive Behavioral Therapy?
+How many patients received Dialectical Behavioral Therapy?
+What is the average symptom severity for patients in Dialectical Behavioral Therapy?
+What diagnosis is most commonly treated with Dialectical Behavioral Therapy?
+How many patients showed Improved?
+What is the average treatment progress for patients who Improved?
+How many patients showed No Change?
+What is the average treatment progress for patients who No Change?
+How many patients showed Deteriorated?
+What is the average treatment progress for patients who Deteriorated?
+How many Male patients are diagnosed with Panic Disorder?
+What is the average sleep quality for Male patients?
+Which medication is most commonly prescribed to Male patients?
+How many Female patients are diagnosed with Panic Disorder?
+What is the average sleep quality for Female patients?
+Which medication is most commonly prescribed to Female patients?
+How many patients had an AI-detected emotional state of Anxious?
+What is the average mood score for patients marked as Anxious?
+How many patients had an AI-detected emotional state of Neutral?
+What is the average mood score for patients marked as Neutral?
+How many patients had an AI-detected emotional state of Happy?
+What is the average mood score for patients marked as Happy?
+How many patients had an AI-detected emotional state of Excited?
+What is the average mood score for patients marked as Excited?
+How many patients had an AI-detected emotional state of Stressed?
+What is the average mood score for patients marked as Stressed?
+How many patients had an AI-detected emotional state of Depressed?
+What is the average mood score for patients marked as Depressed?
+What is the average sleep quality for patients with treatment duration over 10 weeks?
+How many patients have a stress level of 9 or higher?
+What is the most common diagnosis among patients younger than 35?
+How does physical activity correlate with mood score?
+What is the median symptom severity for patients on SSRIs?
+Which therapy is linked with the best outcomes for Generalized Anxiety?
+Are patients with Bipolar Disorder more likely to be prescribed Antipsychotics or Mood Stabilizers?
+What is the average adherence rate for patients receiving Cognitive Behavioral Therapy?
+How many patients started treatment after February 2024?
+Which gender shows higher treatment progress on average?
+What diagnosis is most common among patients with emotional state Stressed?
+How many Male patients have Generalized Anxiety and are on Benzodiazepines?
+What are the top 3 diagnoses by number of patients?
+What is the distribution of treatment progress among patients with Panic Disorder?
+How many patients with emotional state Depressed are on Antidepressants?
+What is the average sleep quality of patients on Benzodiazepines with Major Depressive Disorder?
+What is the average sleep quality of patients on Anxiolytics with Generalized Anxiety?
+What is the distribution of treatment progress among patients with Bipolar Disorder?
+How many patients with emotional state Excited are on Antipsychotics?
+How effective is Mindfulness-Based Therapy in treating Major Depressive Disorder?
+How many patients have treatment duration over 12 weeks and are on Mood Stabilizers?
+What therapy types are used alongside Mood Stabilizers?
+What is the average stress level for Male patients diagnosed with Major Depressive Disorder?
+What diagnosis is most common among patients with emotional state Excited?
+What diagnosis is most common among patients with emotional state Neutral?
+What is the distribution of treatment progress among patients with Generalized Anxiety?
+How many Male patients have Panic Disorder and are on Benzodiazepines?
+How many patients have treatment duration over 12 weeks and are on Antidepressants?
+What is the distribution of treatment progress among patients with Major Depressive Disorder?
+How many patients have treatment duration over 12 weeks and are on Antipsychotics?
+What is the average stress level for Male patients diagnosed with Bipolar Disorder?
+What is the average stress level for Female patients diagnosed with Major Depressive Disorder?
+What is the average stress level for Male patients diagnosed with Generalized Anxiety?
+How many Male patients have Bipolar Disorder and are on Antipsychotics?
+What is the average stress level for Female patients diagnosed with Bipolar Disorder?
+What is the average stress level for Female patients diagnosed with Generalized Anxiety?
+What is the average sleep quality of patients on Anxiolytics with Major Depressive Disorder?
+How many patients with emotional state Anxious are on Benzodiazepines?
+How many patients with emotional state Depressed are on Mood Stabilizers?
+What therapy types are used alongside Antipsychotics?
+How many patients with emotional state Stressed are on SSRIs?
+How many Male patients have Generalized Anxiety and are on SSRIs?
+How many Male patients have Major Depressive Disorder and are on Mood Stabilizers?
+What is the average sleep quality of patients on Mood Stabilizers with Panic Disorder?
+What is the average sleep quality of patients on Antidepressants with Generalized Anxiety?
+How many Male patients have Bipolar Disorder and are on Benzodiazepines?
+What is the average sleep quality of patients on SSRIs with Bipolar Disorder?
+How many patients with emotional state Neutral are on SSRIs?
+How many patients have treatment duration over 12 weeks and are on Benzodiazepines?
+How many patients with emotional state Anxious are on Antipsychotics?
+What therapy types are used alongside Anxiolytics?
+How many patients with emotional state Stressed are on Antipsychotics?
+How effective is Cognitive Behavioral Therapy in treating Bipolar Disorder?
+How many patients with emotional state Excited are on Mood Stabilizers?
+How effective is Mindfulness-Based Therapy in treating Generalized Anxiety?
+How many Male patients have Major Depressive Disorder and are on Antidepressants?
+How effective is Dialectical Behavioral Therapy in treating Major Depressive Disorder?
+What therapy types are used alongside Antidepressants?
+How many patients with emotional state Happy are on Anxiolytics?
+How many patients with emotional state Excited are on Antidepressants?
+What diagnosis is most common among patients with emotional state Anxious?
+How effective is Cognitive Behavioral Therapy in treating Major Depressive Disorder?
+How many Female patients have Bipolar Disorder and are on Antidepressants?
+How many patients with emotional state Neutral are on Antipsychotics?
+How effective is Interpersonal Therapy in treating Bipolar Disorder?
+What is the average sleep quality of patients on Anxiolytics with Panic Disorder?
+What diagnosis is most common among patients with emotional state Happy?
+How effective is Mindfulness-Based Therapy in treating Bipolar Disorder?
+What is the average sleep quality of patients on Antipsychotics with Bipolar Disorder?
+How effective is Interpersonal Therapy in treating Major Depressive Disorder?
+How many Female patients have Panic Disorder and are on Mood Stabilizers?
+How many patients with emotional state Excited are on Anxiolytics?
+How many patients with emotional state Stressed are on Mood Stabilizers?
+How many Male patients have Bipolar Disorder and are on Anxiolytics?
+How many Male patients have Panic Disorder and are on Anxiolytics?
+What therapy types are used alongside Benzodiazepines?
+What is the average sleep quality of patients on Antidepressants with Panic Disorder?
+What is the average sleep quality of patients on SSRIs with Panic Disorder?
+What is the average sleep quality of patients on Antipsychotics with Major Depressive Disorder?
+How many patients have treatment duration over 12 weeks and are on SSRIs?
+How effective is Interpersonal Therapy in treating Generalized Anxiety?
+How effective is Interpersonal Therapy in treating Panic Disorder?
+How many patients have treatment duration over 12 weeks and are on Anxiolytics?
+What is the average stress level for Male patients diagnosed with Panic Disorder?
+What is the average stress level for Female patients diagnosed with Panic Disorder?
+How many Female patients have Major Depressive Disorder and are on Benzodiazepines?
+How many Male patients have Panic Disorder and are on Mood Stabilizers?
+What is the average sleep quality of patients on Benzodiazepines with Generalized Anxiety?
+How effective is Dialectical Behavioral Therapy in treating Generalized Anxiety?
+How many Male patients have Major Depressive Disorder and are on Anxiolytics?
+What therapy types are used alongside SSRIs?
+How many Female patients have Major Depressive Disorder and are on Mood Stabilizers?
+How many patients with emotional state Stressed are on Benzodiazepines?
+How many Female patients have Panic Disorder and are on SSRIs?
+How many Male patients have Generalized Anxiety and are on Mood Stabilizers?
+How many patients with emotional state Neutral are on Anxiolytics?
+How effective is Dialectical Behavioral Therapy in treating Bipolar Disorder?
+What is the average sleep quality of patients on SSRIs with Generalized Anxiety?
+How effective is Cognitive Behavioral Therapy in treating Generalized Anxiety?
+What diagnosis is most common among patients with emotional state Depressed?
+How effective is Dialectical Behavioral Therapy in treating Panic Disorder?
+What is the average sleep quality of patients on Antipsychotics with Generalized Anxiety?
+How many patients with emotional state Stressed are on Anxiolytics?
+What is the average sleep quality of patients on Mood Stabilizers with Bipolar Disorder?
+What is the average sleep quality of patients on Antipsychotics with Panic Disorder?
+How many Male patients have Bipolar Disorder and are on Antidepressants?
+What is the average sleep quality of patients on SSRIs with Major Depressive Disorder?
+How many Female patients have Major Depressive Disorder and are on Anxiolytics?
+What is the average sleep quality of patients on Mood Stabilizers with Generalized Anxiety?
+What is the average sleep quality of patients on Antidepressants with Bipolar Disorder?
+How many Female patients have Major Depressive Disorder and are on Antidepressants?
+How many Male patients have Panic Disorder and are on SSRIs?
+How many patients with emotional state Happy are on SSRIs?
+How many Female patients have Generalized Anxiety and are on Benzodiazepines?
+How many patients with emotional state Stressed are on Antidepressants?
+How many Female patients have Bipolar Disorder and are on Anxiolytics?
+How many Male patients have Generalized Anxiety and are on Antipsychotics?
+How many patients with emotional state Depressed are on Anxiolytics?
+How many patients with emotional state Depressed are on Antipsychotics?
+How many Male patients have Generalized Anxiety and are on Antidepressants?

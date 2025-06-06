@@ -1,0 +1,251 @@
+query
+What is the average LIMIT_BAL for clients aged 20?
+What is the average LIMIT_BAL for clients aged 25?
+What is the average LIMIT_BAL for clients aged 30?
+What is the average LIMIT_BAL for clients aged 35?
+What is the average LIMIT_BAL for clients aged 40?
+What is the average LIMIT_BAL for clients aged 45?
+What is the average LIMIT_BAL for clients aged 50?
+What is the average LIMIT_BAL for clients aged 55?
+What is the average LIMIT_BAL for clients aged 60?
+What is the average LIMIT_BAL for clients aged 65?
+How many clients are male?
+How many clients are female?
+What is the most common EDUCATION level among clients who defaulted?
+What is the most common EDUCATION level among clients who defaulted?
+What is the most common EDUCATION level among clients who defaulted?
+What is the most common EDUCATION level among clients who defaulted?
+What is the most common EDUCATION level among clients who defaulted?
+How many clients are married and have a LIMIT_BAL over 50000?
+How many clients are married and have a LIMIT_BAL over 100000?
+How many clients are married and have a LIMIT_BAL over 200000?
+What is the average PAY_0 status for clients with AGE over 30?
+What is the average PAY_0 status for clients with AGE over 40?
+What is the average PAY_0 status for clients with AGE over 50?
+How many clients paid more than 1000 in PAY_AMT1?
+How many clients paid more than 5000 in PAY_AMT1?
+How many clients paid more than 10000 in PAY_AMT1?
+What is the maximum BILL_AMT2 among clients who did not default?
+What is the maximum BILL_AMT2 among clients who did not default?
+What is the maximum BILL_AMT2 among clients who did not default?
+What is the maximum BILL_AMT2 among clients who did not default?
+What is the maximum BILL_AMT2 among clients who did not default?
+How many clients have a PAY_2 value of -2?
+How many clients have a PAY_2 value of -1?
+How many clients have a PAY_2 value of 0?
+How many clients have a PAY_2 value of 1?
+How many clients have a PAY_2 value of 2?
+What is the total PAY_AMT6 for clients with EDUCATION level 1?
+What is the total PAY_AMT6 for clients with EDUCATION level 2?
+What is the total PAY_AMT6 for clients with EDUCATION level 3?
+What is the total PAY_AMT6 for clients with EDUCATION level 4?
+What is the average AGE of clients with MARRIAGE status 1?
+What is the average AGE of clients with MARRIAGE status 2?
+What is the average AGE of clients with MARRIAGE status 3?
+How many clients defaulted with a PAY_0 of -2?
+How many clients defaulted with a PAY_0 of -1?
+How many clients defaulted with a PAY_0 of 0?
+How many clients defaulted with a PAY_0 of 1?
+How many clients defaulted with a PAY_0 of 2?
+What is the average LIMIT_BAL for female clients who are single?
+What is the average LIMIT_BAL for female clients who are single?
+What is the average LIMIT_BAL for female clients who are single?
+What is the average LIMIT_BAL for female clients who are single?
+What is the average LIMIT_BAL for female clients who are single?
+What percentage of clients with AGE > 25 defaulted?
+What percentage of clients with AGE > 35 defaulted?
+What percentage of clients with AGE > 45 defaulted?
+What percentage of clients with AGE > 55 defaulted?
+What is the median BILL_AMT3 for clients with PAY_1 = -1?
+What is the median BILL_AMT3 for clients with PAY_1 = 0?
+What is the median BILL_AMT3 for clients with PAY_1 = 1?
+How many clients with EDUCATION level 1 are not married?
+How many clients with EDUCATION level 2 are not married?
+How many clients with EDUCATION level 3 are not married?
+What is the most frequent PAY_AMT4 value for clients who defaulted?
+What is the most frequent PAY_AMT4 value for clients who defaulted?
+What is the most frequent PAY_AMT4 value for clients who defaulted?
+What is the most frequent PAY_AMT4 value for clients who defaulted?
+What is the most frequent PAY_AMT4 value for clients who defaulted?
+What is the maximum BILL_AMT1 among married clients?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the average BILL_AMT4 for male clients?
+What is the total PAY_AMT2 for clients aged under 35?
+What is the mean PAY_AMT6 for clients with AGE > 50?
+What is the average AGE of clients with LIMIT_BAL less than 50000?
+What is the mean PAY_AMT4 for clients with AGE > 60?
+What is the maximum BILL_AMT1 among married clients?
+How many female clients have PAY_1 of 0 and defaulted?
+How many female clients have PAY_1 of -1 and defaulted?
+What is the total PAY_AMT5 for clients aged under 30?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the average BILL_AMT3 for male clients?
+How many clients with EDUCATION level 3 have a PAY_3 of 2?
+How many clients have a PAY_4 value of 0?
+What is the average BILL_AMT6 for male clients?
+What is the average BILL_AMT4 for male clients?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+What is the average BILL_AMT2 for male clients?
+What is the average BILL_AMT6 for male clients?
+What is the mean PAY_AMT5 for clients with AGE > 50?
+How many clients with LIMIT_BAL greater than 50000 defaulted?
+What is the total PAY_AMT1 for clients aged under 30?
+What is the total PAY_AMT4 for clients aged under 40?
+How many female clients have PAY_1 of -1 and defaulted?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the mean PAY_AMT1 for clients with AGE > 60?
+What is the maximum BILL_AMT2 among married clients?
+How many female clients have PAY_1 of 1 and defaulted?
+How many clients with EDUCATION level 3 have a PAY_3 of 2?
+What is the average BILL_AMT5 for male clients?
+What is the total PAY_AMT3 for clients aged under 40?
+What is the maximum BILL_AMT2 among married clients?
+What is the total PAY_AMT3 for clients aged under 40?
+What is the total PAY_AMT1 for clients aged under 40?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+How many clients with EDUCATION level 3 have a PAY_3 of -1?
+What is the default rate for clients with MARRIAGE status 2?
+What is the maximum BILL_AMT5 among married clients?
+What is the default rate for clients with MARRIAGE status 1?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+What is the default rate for clients with MARRIAGE status 2?
+How many clients with EDUCATION level 1 have a PAY_3 of 0?
+How many clients with EDUCATION level 3 have a PAY_3 of 0?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the average BILL_AMT2 for male clients?
+What is the maximum BILL_AMT2 among married clients?
+How many clients with EDUCATION level 1 have a PAY_3 of 2?
+What is the total PAY_AMT1 for clients aged under 40?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients with EDUCATION level 3 have a PAY_3 of -1?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients have a PAY_0 value of 1?
+How many clients with EDUCATION level 1 have a PAY_3 of 0?
+What is the maximum BILL_AMT6 among married clients?
+What is the default rate for clients with MARRIAGE status 3?
+What is the average BILL_AMT5 for male clients?
+What is the default rate for clients with MARRIAGE status 1?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the average BILL_AMT6 for male clients?
+How many clients with EDUCATION level 1 have a PAY_3 of 1?
+What is the total PAY_AMT1 for clients aged under 30?
+What is the maximum BILL_AMT5 among married clients?
+How many clients with LIMIT_BAL greater than 150000 defaulted?
+What is the mean PAY_AMT3 for clients with AGE > 40?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+What is the default rate for clients with MARRIAGE status 2?
+How many clients with EDUCATION level 3 have a PAY_3 of 0?
+How many clients with EDUCATION level 2 have a PAY_3 of 0?
+What is the default rate for clients with MARRIAGE status 3?
+How many female clients have PAY_1 of 2 and defaulted?
+What is the maximum BILL_AMT2 among married clients?
+What is the total PAY_AMT4 for clients aged under 40?
+What is the maximum BILL_AMT4 among married clients?
+What is the default rate for clients with MARRIAGE status 1?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients with EDUCATION level 2 have a PAY_3 of 0?
+How many female clients have PAY_1 of 0 and defaulted?
+What is the average BILL_AMT1 for male clients?
+How many clients with EDUCATION level 2 have a PAY_3 of -1?
+How many clients with EDUCATION level 3 have a PAY_3 of 2?
+What is the maximum BILL_AMT1 among married clients?
+What is the average AGE of clients with LIMIT_BAL less than 50000?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients have a PAY_4 value of -1?
+How many clients with LIMIT_BAL greater than 50000 defaulted?
+How many female clients have PAY_1 of 1 and defaulted?
+What is the average BILL_AMT1 for male clients?
+What is the average AGE of clients with LIMIT_BAL less than 50000?
+How many clients have a PAY_6 value of 2?
+How many clients have a PAY_2 value of 0?
+How many female clients have PAY_1 of 2 and defaulted?
+What is the average BILL_AMT1 for male clients?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+What is the total PAY_AMT3 for clients aged under 40?
+How many clients with EDUCATION level 3 have a PAY_3 of -1?
+What is the average AGE of clients with LIMIT_BAL less than 120000?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+How many female clients have PAY_1 of 2 and defaulted?
+How many female clients have PAY_1 of -2 and defaulted?
+What is the maximum BILL_AMT6 among married clients?
+How many clients with EDUCATION level 1 have a PAY_3 of -1?
+What is the average BILL_AMT2 for male clients?
+How many female clients have PAY_1 of 1 and defaulted?
+What is the average BILL_AMT4 for male clients?
+How many female clients have PAY_1 of 1 and defaulted?
+What is the maximum BILL_AMT2 among married clients?
+What is the average BILL_AMT6 for male clients?
+How many clients with EDUCATION level 2 have a PAY_3 of 1?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+What is the maximum BILL_AMT6 among married clients?
+How many female clients have PAY_1 of 0 and defaulted?
+What is the mean PAY_AMT3 for clients with AGE > 60?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients with EDUCATION level 2 have a PAY_3 of 2?
+What is the average BILL_AMT6 for male clients?
+What is the mean PAY_AMT1 for clients with AGE > 60?
+How many clients with LIMIT_BAL greater than 50000 defaulted?
+What is the default rate for clients with MARRIAGE status 1?
+What is the average BILL_AMT6 for male clients?
+What is the maximum BILL_AMT4 among married clients?
+How many clients with EDUCATION level 1 have a PAY_3 of 2?
+How many female clients have PAY_1 of 0 and defaulted?
+How many female clients have PAY_1 of 0 and defaulted?
+What is the average BILL_AMT6 for male clients?
+What is the average AGE of clients with LIMIT_BAL less than 120000?
+How many female clients have PAY_1 of 2 and defaulted?
+How many female clients have PAY_1 of 2 and defaulted?
+How many clients with EDUCATION level 2 have a PAY_3 of -1?
+How many clients with EDUCATION level 2 have a PAY_3 of 0?
+What is the mean PAY_AMT4 for clients with AGE > 40?
+How many female clients have PAY_1 of -2 and defaulted?
+How many female clients have PAY_1 of -1 and defaulted?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+What is the mean PAY_AMT1 for clients with AGE > 40?
+What is the maximum BILL_AMT5 among married clients?
+What is the average BILL_AMT2 for male clients?
+What is the total PAY_AMT2 for clients aged under 40?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+How many female clients have PAY_1 of -1 and defaulted?
+How many female clients have PAY_1 of 1 and defaulted?
+What is the default rate for clients with MARRIAGE status 2?
+How many clients with LIMIT_BAL greater than 50000 defaulted?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+What is the mean PAY_AMT3 for clients with AGE > 40?
+What is the average BILL_AMT4 for male clients?
+What is the default rate for clients with MARRIAGE status 3?
+How many clients have a PAY_2 value of 2?
+What is the maximum BILL_AMT3 among married clients?
+What is the default rate for clients with MARRIAGE status 1?
+How many female clients have PAY_1 of 2 and defaulted?
+What is the maximum BILL_AMT6 among married clients?
+What is the mean PAY_AMT4 for clients with AGE > 60?
+What is the default rate for clients with MARRIAGE status 2?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+How many clients with EDUCATION level 1 have a PAY_3 of 2?
+What is the total PAY_AMT6 for clients aged under 40?
+What is the maximum BILL_AMT5 among married clients?
+What is the maximum BILL_AMT4 among married clients?
+How many clients with LIMIT_BAL greater than 150000 defaulted?
+What is the maximum BILL_AMT4 among married clients?
+What is the total PAY_AMT6 for clients aged under 35?
+What is the total PAY_AMT4 for clients aged under 35?
+How many clients with LIMIT_BAL greater than 150000 defaulted?
+What is the maximum BILL_AMT5 among married clients?
+What is the default rate for clients with MARRIAGE status 1?
+What is the average BILL_AMT2 for male clients?
+How many clients with LIMIT_BAL greater than 100000 defaulted?
+What is the maximum BILL_AMT2 among married clients?
+What is the total PAY_AMT1 for clients aged under 35?
+What is the total PAY_AMT3 for clients aged under 30?
+How many female clients have PAY_1 of -2 and defaulted?
+What is the mean PAY_AMT1 for clients with AGE > 60?
+What is the average BILL_AMT1 for male clients?
+What is the average AGE of clients with LIMIT_BAL less than 50000?
+What is the total PAY_AMT1 for clients aged under 35?
+How many clients have a PAY_2 value of 0?
+What is the maximum BILL_AMT3 among married clients?
+What is the average AGE of clients with LIMIT_BAL less than 80000?
+What is the total PAY_AMT2 for clients aged under 40?
+What is the maximum BILL_AMT5 among married clients?
+What is the default rate for clients with MARRIAGE status 3?
