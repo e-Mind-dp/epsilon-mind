@@ -84,8 +84,9 @@ This will open the Streamlit-based interface in your browser.
 ### NOTE
 Please make a new file named config.py under the backend folder and add your own openai API details for complete access.
 
+---
 
-### Procedure
+## Procedure
 1. Once the SecuQuery page loads, register with an account and proceed to login with the same
 2. Select the dataset type from the drop-dowm menu to ask queries
 3. The dataset links have been attched below for reference (refer to that data to ask potential questions)
