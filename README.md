@@ -94,10 +94,10 @@ Please make a new file named config.py under the backend folder and add your own
 5. Put in the query into the box and submit it for the answer 
 
 ### Datasets
-Healthcare: https://corgis-edu.github.io/corgis/csv/hospitals/
-Mobility: https://www.google.com/covid19/mobility/index.html?hl=en
-Finance: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
-Smart energy: https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data
+1. Healthcare: https://corgis-edu.github.io/corgis/csv/hospitals/
+2. Mobility: https://www.google.com/covid19/mobility/index.html?hl=en
+3. Finance: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+4. Smart energy: https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data
 
 
 
