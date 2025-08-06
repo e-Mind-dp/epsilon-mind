@@ -81,5 +81,8 @@ This will open the Streamlit-based interface in your browser.
 ### Make sure both terminals remain open during runtime. VS Code’s split-terminal feature is ideal for this workflow.
 
 
+### NOTE
+Please make a new file named config.py under the backend folder and add your own openai API details for complete access.
+
 
 
