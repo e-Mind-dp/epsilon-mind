@@ -63,7 +63,6 @@ def process_query(query: str, df: pd.DataFrame, past_queries: list, user_record:
         user_record["role"] = role_int_to_str.get(user_record["role"], "public")
 
     print(f"Sensitivity info: {sensitivity_info}")
-    # print(f"Max similarity: {max_similarity}")
 
 
 
@@ -77,7 +76,6 @@ def process_query(query: str, df: pd.DataFrame, past_queries: list, user_record:
         confidence=confidence
     )
 
-    # print("Encoded state vector:", state)
 
 
     # Step 4: Use RL agent to select epsilon
@@ -100,7 +98,6 @@ def process_query(query: str, df: pd.DataFrame, past_queries: list, user_record:
 
     start = time.time()
     # Step 6: Apply DP noise with epsilon - baseline
-    # dp_answer = apply_dp_tagged_answer(true_answer, epsilon)
     laplace_answer = apply_dp_tagged_answer(true_answer, epsilon, mechanism="laplace")
     discrete_laplace_answer = apply_dp_tagged_answer(true_answer, epsilon, mechanism="discrete_laplace")
     gaussian_answer = apply_dp_tagged_answer(true_answer, epsilon, mechanism="gaussian")
@@ -146,38 +143,8 @@ def process_query(query: str, df: pd.DataFrame, past_queries: list, user_record:
     total_latency = end_full - start_full
 
 
-
-
-
-
-
     # Step 8: Update past queries list
     past_queries.append(query)
-    # print(f"ε = {epsilon:.4f} | Total = {total_latency:.3f}s | LLM = {llm_time:.3f}s | RL = {rl_time:.3f}s | Perturb = {perturbation_time:.3f}s")
 
 
     return epsilon, true_answer_str, laplace_answer_str, discrete_laplace_answer_str, gaussian_answer_str, discrete_gaussian_answer_str, a1b1_result_str, a2b1_result_str, a3b1_result_str, a1b2_result_str, a2b2_result_str, a3b2_result_str
-#     return {
-#     "epsilon": epsilon,
-#     "latency_total": total_latency,
-#     "latency_llm": llm_time,
-#     "latency_rl": rl_time,
-#     "latency_perturb": perturbation_time,
-#     "answers": {
-#         "true": true_answer_str,
-#         "laplace": laplace_answer_str,
-#         "discrete_laplace": discrete_laplace_answer_str,
-#         "gaussian": gaussian_answer_str,
-#         "discrete_gaussian": discrete_gaussian_answer_str,
-#         "a1b1": a1b1_result_str,
-#         "a2b1": a2b1_result_str,
-#         "a3b1": a3b1_result_str,
-#         "a1b2": a1b2_result_str,
-#         "a2b2": a2b2_result_str,
-#         "a3b2": a3b2_result_str
-#     }
-# }
-
-
-
-

@@ -61,17 +61,17 @@ def handle_query():
             return jsonify({"error": "User not found"}), 404
 
 
-        # Step 1: Get all available dataset filenames
+        # Get all available dataset filenames
         available_datasets = list_available_datasets()
 
-        # Step 2: Use LLM to match hint to actual filename
+        # Use LLM to match hint to actual filename
         matched_dataset_filename = match_dataset_name_llm(dataset_hint, available_datasets)
         print("The chosen dataset is ", matched_dataset_filename)
 
-        # Step 3: Load the matched dataset into a DataFrame
+        # Load the matched dataset into a DataFrame
         df = load_dataset(matched_dataset_filename)
 
-        # Step 4: Run sensitivity analysis
+        # Run sensitivity analysis
         sensitivity = classify_sensitivity(query)
         print("The sensitivity is ", sensitivity)
 
@@ -98,7 +98,6 @@ def handle_query():
         input_user_role = user_record["role"]
         input_confidence = sensitivity["confidence"]
         
-        # === RL: Encode state and predict epsilon ===
         state = encode_state(
             sensitivity=input_sensitivity,
             user_role=input_user_role,
@@ -113,7 +112,6 @@ def handle_query():
             action_idx = agent.select_action(state, epsilon=0.0)  # greedy selection
             print(f"Selected action index: {action_idx}")
 
-        # epsilon = get_epsilon_from_action(action_idx)
         epsilon = optimised_epsilon(action_idx)
         # epsilon = get_epsilon_from_action(action_idx)
         
@@ -136,7 +134,7 @@ def handle_query():
 )
 
         
-        # Step 7: Answer query with LLM using dataset
+        # Answer query with LLM using dataset
         answer_old = query_openai(df, query)
         print("OLDDD Answer to the query is ", answer_old)
 
@@ -156,7 +154,7 @@ def handle_query():
         updated_record = deduct_budget(updated_record, epsilon)
         update_user_record(user_id, updated_record)
 
-        # Step 7: Generate feedback message
+        # Generate feedback message
         feedback = generate_privacy_feedback(sensitivity, dp_answer)
 
         return jsonify({"feedback": feedback})

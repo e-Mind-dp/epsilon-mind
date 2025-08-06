@@ -1,5 +1,3 @@
-# stackelberg_simulator.py
-
 from fitness_function import simulate_user_response
 from epsilon_strategy import EpsilonStrategy
 

@@ -1,29 +1,3 @@
-# def execute_pandas_expression(df, expression):
-#     """
-#     Safely execute a pandas expression string on the given DataFrame.
-#     Returns the result or error message.
-#     """
-#     import pandas as pd
-
-#     try:
-#         # Safe evaluation context
-#         local_vars = {'df': df}
-#         result = eval(expression, {"__builtins__": {}}, local_vars)
-
-#         if isinstance(result, pd.Series) or isinstance(result, pd.DataFrame):
-#             return result.to_string(index=False)
-#         elif isinstance(result, (int, float, str)):
-#             return str(result)
-#         else:
-#             return str(result)
-#     except Exception as e:
-#         return f"Error: {str(e)}"
-
-
-
-
-# backend/utils/query_executor.py
-
 def execute_pandas_expression(df, expression):
     """
     Safely evaluate a pandas expression like 'df["sleep"].mean()' and
@@ -44,7 +18,7 @@ def execute_pandas_expression(df, expression):
         if isinstance(result, pd.Series):
             # Convert Series to "Column: Value" format
             # result = result.round(2).to_dict()
-            if result.dtype.kind in 'fiu':  # float, int, unsigned
+            if result.dtype.kind in 'fiu':  
                 result = result.round(2)
             result = result.to_dict()
 

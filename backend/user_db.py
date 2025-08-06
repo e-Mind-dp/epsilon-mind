@@ -5,17 +5,13 @@ import uuid
 from budget import get_role_cap, should_reset_budget
 
 
-# DEFAULT_BUDGET = 10.0  # total epsilon allowed
-# RESET_PERIOD_HOURS = 24  # budget resets every 24 hours
-
-
 def get_user_by_email(email):
     """Fetch user from Supabase by email."""
     try:
         response = supabase.table("users").select("*").eq("email", email).execute()
         if response.data:
-            return response.data[0]  # Return the first matching user
-        return None  # User not found
+            return response.data[0]  
+        return None  
     except Exception as e:
         print("Error fetching user:", e)
         return None
@@ -24,18 +20,18 @@ def get_user_by_email(email):
 
 def hash_password(password):
     """Hash a plain-text password."""
-    salt = bcrypt.gensalt()  # Generate a salt
-    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)  # Hash the password with salt
-    return hashed_password.decode('utf-8')  # Return as string for database storage
+    salt = bcrypt.gensalt()  
+    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)  
+    return hashed_password.decode('utf-8') 
 
 
 
-def register_user(email, password, role="researcher"):
+def register_user(email, password, role="Unauthorised"):
     cap = get_role_cap(role)
 
     try:
-        hashed_password = hash_password(password)  # Hash the password
-        user_id = str(uuid.uuid4())  # Generate unique user ID
+        hashed_password = hash_password(password) 
+        user_id = str(uuid.uuid4()) 
         response = supabase.table("users").insert({
             "id": user_id,
             "email": email,

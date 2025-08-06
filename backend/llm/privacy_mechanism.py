@@ -1,14 +1,3 @@
-# import numpy as np
-
-# def apply_laplace_mechanism(value, epsilon, sensitivity=1.0):
-#     noise = np.random.laplace(loc=0.0, scale=sensitivity/epsilon)
-#     noisy_value = value + noise
-#     return max(0, noisy_value), noise  # Clamp to zero
-
-
-
-# llm/mechanisms.py
-
 import numpy as np
 
 def laplace_mechanism(value, epsilon, sensitivity=1.0):

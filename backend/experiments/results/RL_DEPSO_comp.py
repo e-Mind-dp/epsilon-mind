@@ -7,8 +7,7 @@ import re
 # ------------------------------
 # Config
 # ------------------------------
-# RL_FILE = "backend/experiments/results/healthcare_results_sample_rl.csv"
-# OPT_FILE = "backend/experiments/results/healthcare_results_sample.csv"
+
 RL_FILE = "backend/experiments/results/healthcare_public_results_RL.csv"
 OPT_FILE = "backend/experiments/results/healthcare_public_results.csv"
 

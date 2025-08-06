@@ -1,0 +1,6 @@
+{
+  "query": "Which state has the highest average cost for Heart Failure?",
+  "true_answer": "Error executing query: 'DataFrame' object has no attribute 'strip'",
+  "dp_answer": "Error executing query: 'DataFrame' object has no attribute 'strip'",
+  "epsilon": 1.0
+}

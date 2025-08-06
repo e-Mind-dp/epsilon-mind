@@ -1,5 +1,3 @@
-# fitness_function.py
-
 import numpy as np
 
 def simulate_user_response(epsilon_policy, user_model="adversarial"):

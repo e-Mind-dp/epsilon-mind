@@ -1,5 +1,3 @@
-# run_optimizer.py
-
 import os
 import numpy as np
 import json
@@ -9,7 +7,7 @@ from de_pso_optimizer import DEPSOOptimizer
 from stackelberg_simulator import StackelbergSimulator
 
 if __name__ == "__main__":
-    print("🚀 Starting Stackelberg DE–PSO Optimization...\n")
+    print("Starting Stackelberg DE–PSO Optimization...\n")
 
     strategy = EpsilonStrategy(num_queries=20)
     optimizer = DEPSOOptimizer(num_agents=20, num_generations=50, num_queries=20)

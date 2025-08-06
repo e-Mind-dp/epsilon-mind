@@ -1,5 +1,3 @@
-# epsilon_strategy.py
-
 import numpy as np
 
 class EpsilonStrategy:

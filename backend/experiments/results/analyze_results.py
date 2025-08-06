@@ -80,13 +80,17 @@ def compute_metrics(df, domain, role):
             print(f"  Bin {bin_interval}: RE={re:.3f}, RMSE={rmse:.3f}, Count={len(group)}")
 
         metrics[col] = {'rel_error': rel_errors, 'rmse': rmses}
-    return metrics
+    avg_re = np.nanmean([np.nanmean(metrics[m]['rel_error']) for m in metrics])
+    return metrics, avg_re
 
 # ------------------------------
 # Plotting
 # ------------------------------
 # fig, axes = plt.subplots(nrows=4, ncols=2, figsize=(14, 18), sharex=True, sharey=True,
 #                          gridspec_kw={'hspace': 0.3, 'wspace': 0.2})
+
+domain_role_utilities = {}
+
 
 fig, axes = plt.subplots(nrows=4, ncols=2, figsize=(14, 18), sharex=True, sharey=False,
                          gridspec_kw={'hspace': 0.3, 'wspace': 0.2})
@@ -103,7 +107,10 @@ for i, domain in enumerate(domains):
             continue
 
         df = pd.read_csv(file_path)
-        metrics = compute_metrics(df, domain, role)
+        # metrics = compute_metrics(df, domain, role)
+        metrics, avg_re = compute_metrics(df, domain, role)
+        domain_role_utilities.setdefault(domain, []).append(100 * (1 - avg_re))
+
 
         bar_width = 0.08
         for k, mech in enumerate(dp_columns):
@@ -120,11 +127,6 @@ for i, domain in enumerate(domains):
             ax1.set_xticklabels(x_labels, rotation=45, ha='right')
         else:
             ax1.set_xticklabels([])
-
-        # if j == 0:
-        #     ax1.set_ylabel("RE", fontsize=10)
-        # if j == 1:
-        #     ax2.set_ylabel("RMSE", fontsize=10)
 
         ax1.set_ylabel("RE", fontsize=10)
         ax2.set_ylabel("RMSE", fontsize=10)
@@ -154,10 +156,9 @@ fig.legend(legend_lines, legend_names, loc='upper center', ncol=10, fontsize='me
 plt.tight_layout(rect=[0, 0, 1, 0.92])
 plt.savefig("privacy_utility_2x4_grid_final.png", dpi=300)
 plt.show()
-
-
-
-
-
+print("\n=== Average Utility (%) per Domain (Averaged over both roles) ===")
+for domain, utilities in domain_role_utilities.items():
+    avg_utility = np.nanmean(utilities)
+    print(f"{domain.title():<15}: {avg_utility:.2f}%")
 
 

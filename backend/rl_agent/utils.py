@@ -4,12 +4,8 @@ import os
 from rl_agent.config import EPSILON_ACTIONS
 
 def encode_state(sensitivity, user_role, query_type, similarity, budget, confidence):
-    # print(f"DEBUG: sensitivity={sensitivity} ({type(sensitivity)})")
-    # print(f"DEBUG: user_role={user_role} ({type(user_role)})")
-    # print(f"DEBUG: query_type={query_type} ({type(query_type)})")
 
-
-    role_map = {"doctor": 0, "researcher": 1, "public": 2}
+    role_map = {"Authorised": 0, "Unauthorised": 1}
     query_map = {
         "individual": 0, "aggregate": 1, "filtering": 2,
         "temporal": 3, "comparative": 4, "descriptive": 5, "unknown": 6
@@ -19,7 +15,7 @@ def encode_state(sensitivity, user_role, query_type, similarity, budget, confide
      # If user_role is int, convert to string by reverse mapping
     if isinstance(user_role, int):
         reverse_role_map = {v: k for k, v in role_map.items()}
-        user_role = reverse_role_map.get(user_role, "public")  # default to "public" or raise error
+        user_role = reverse_role_map.get(user_role, "Unauthorised")  
 
     # Standardize inputs
     sensitivity = sensitivity.lower().strip()
