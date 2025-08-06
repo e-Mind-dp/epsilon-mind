@@ -85,4 +85,18 @@ This will open the Streamlit-based interface in your browser.
 Please make a new file named config.py under the backend folder and add your own openai API details for complete access.
 
 
+### Procedure
+1. Once the SecuQuery page loads, register with an account and proceed to login with the same
+2. Select the dataset type from the drop-dowm menu to ask queries
+3. The dataset links have been attched below for reference (refer to that data to ask potential questions)
+4. Some sample questions have been added for each dataset type under backend -> experiments -> dataset_queries, which can be used to ask questions as well
+5. Put in the query into the box and submit it for the answer 
+
+### Datasets
+Healthcare: https://corgis-edu.github.io/corgis/csv/hospitals/
+Mobility: https://www.google.com/covid19/mobility/index.html?hl=en
+Finance: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+Smart energy: https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data
+
+
 
