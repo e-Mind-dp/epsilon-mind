@@ -83,15 +83,24 @@ This will open the Streamlit-based interface in your browser.
 
 ### NOTE
 Please make a new file named config.py under the backend folder and add your own openai API details for complete access.
+Follow the structure given below:
+1. import os
+2. import openai
+3. openai.api_key = os.getenv("OPENAI_API_KEY", "sk-XXXX")
+4. DEFAULT_MODEL = "gpt-4o"
+5. FALLBACK_MODEL = "gpt-3.5-turbo"
 
 ---
 
 ## Procedure
 1. Once the SecuQuery page loads, register with an account and proceed to login with the same
-2. Select the dataset type from the drop-dowm menu to ask queries
+2. Select the dataset type from the drop-dowm menu to ask queries pertaining to that dataset
 3. The dataset links have been attched below for reference (refer to that data to ask potential questions)
 4. Some sample questions have been added for each dataset type under backend -> experiments -> dataset_queries, which can be used to ask questions as well
-5. Put in the query into the box and submit it for the answer 
+5. To get the final answer, simply enter your query into the provided input box and submit.
+6. Please note that for security and privacy reasons, the answer you receive will not be the exact result. Instead, it will reflect what εMind defines it to be.
+
+
 
 ### Datasets
 1. Healthcare: https://corgis-edu.github.io/corgis/csv/hospitals/
