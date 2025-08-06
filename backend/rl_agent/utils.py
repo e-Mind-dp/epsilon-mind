@@ -5,7 +5,7 @@ from rl_agent.config import EPSILON_ACTIONS
 
 def encode_state(sensitivity, user_role, query_type, similarity, budget, confidence):
 
-    role_map = {"Authorised": 0, "Unauthorised": 1}
+    role_map = {"authorised": 0, "unauthorised": 1}
     query_map = {
         "individual": 0, "aggregate": 1, "filtering": 2,
         "temporal": 3, "comparative": 4, "descriptive": 5, "unknown": 6
@@ -15,7 +15,7 @@ def encode_state(sensitivity, user_role, query_type, similarity, budget, confide
      # If user_role is int, convert to string by reverse mapping
     if isinstance(user_role, int):
         reverse_role_map = {v: k for k, v in role_map.items()}
-        user_role = reverse_role_map.get(user_role, "Unauthorised")  
+        user_role = reverse_role_map.get(user_role, "unauthorised")  
 
     # Standardize inputs
     sensitivity = sensitivity.lower().strip()
